@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+}
+
+.otter_essay-main {
+  display: flex;
+  background-color: #202020;
+  height: 500px;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+body {
+  background-color: black;
+}
+
+.otter-heading {
+  display: flex;
+  background-color: #ff1093;
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+}
+
+.otter_essay-paragraph {
+  display: flex;
+  background-color: #ffffff;
+  height: 200px;
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.otter-text {
+  padding: 5px;
+}
+
+@media {
+  max-width: 768px;
+  .otter_essay-paragraph {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+}
