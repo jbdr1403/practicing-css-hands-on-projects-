@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+img {
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px red;
+}
