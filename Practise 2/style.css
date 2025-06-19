@@ -1,7 +1,9 @@
 html {
   font-size: 16px;
 }
-
+body {
+  background-color: black;
+}
 .otter_essay-main {
   display: flex;
   background-color: #202020;
@@ -13,10 +15,6 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-body {
-  background-color: black;
 }
 
 .otter-heading {
