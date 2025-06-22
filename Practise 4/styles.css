@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 375px;
+  height: 1294px;
+  background-color: #f7fdfc;
+}
+
+.company-logo > img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.heading {
+  margin: 0px 5px 10px 5px;
+  padding: 10px;
+}
+
+.heading > h1 {
+  width: 327px;
+  font-size: 30px;
+  height: 30px;
+  line-height: 100%;
+  margin: 10px;
+  font-family: "Simonetta", serif;
+  font-weight: 400;
+}
+
+.heading > p {
+  width: 327px;
+  height: 50px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #737373;
+  font-size: 16px;
+  font-weight: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: "Simonetta", serif;
+  font-weight: 400;
+}
+
+.form-cells {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+label {
+  height: 16px;
+  margin-bottom: 5px;
+  color: #011c34;
+  letter-spacing: 0.1px;
+  line-height: 100%;
+  width: 197px;
+  height: 14px;
+  font-size: 14px;
+  font-family: "Sofia Pro", sans-serif;
+}
+
+input,
+select,
+button {
+  width: 295px;
+  height: 48px;
+  padding: 10px;
+  font-size: 14px;
+  color: grey;
+}
+
+button {
+  background-color: #2ec4b6;
+  margin-top: 15px;
+
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+.form-sub-container {
+  display: block;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: #ffffff;
+  width: 327px;
+  height: 870px;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 44px;
+  padding: 10px 10px 10px 30px;
+}
+
+#first-name::placeholder {
+  font-weight: 400;
+  color: black;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.time-bar span {
+  color: #011c34;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper > img {
+  position: absolute;
+  transform: translateY(-50%);
+  right: -10px;
+  top: 22px;
+}
+
+.footer-box {
+  margin: 20px;
+  padding: 15px;
+  width: 316px;
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-box span {
+  color: #2ec4b6;
+}
+
+.date-of-birth-wrapper {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.date-of-birth-wrapper img {
+  position: absolute;
+  transform: translateY(-50%);
+  right: -10px;
+  top: 22px;
+}
