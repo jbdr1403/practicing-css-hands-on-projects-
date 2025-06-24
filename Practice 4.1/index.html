@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Landing Page Desktop View</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <form action="submit" class="form-main">
+        <div class="left-box">
+          <img src="./assets/Logo.png" alt="company logo" />
+          <h1>For Individuals</h1>
+          <span
+            >Start benefiting from the wellness experience. For companies
+            looking on increasing productivity, and improving organization
+            wellness.</span
+          >
+        </div>
+
+        <div class="right-box">
+          <div class="form-cells">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Tolu"
+            />
+          </div>
+
+          <div class="form-cells">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+
+          <div class="form-cells">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="gender">Select here</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-cells">
+            <label for="date-of-birth">Date of Birth</label>
+            <div class="date-of-birth-wrapper">
+              <input
+                type="date"
+                name="date-of-birth"
+                id="date-of-birth"
+                placeholder="Select here"
+              />
+              <img src="./assets/calender-icon.png" alt="" />
+            </div>
+          </div>
+
+          <div class="form-cells">
+            <label for="weight">Weight (KG)</label>
+            <input
+              type="text"
+              name="weight"
+              id="weight"
+              placeholder="Enter weight"
+            />
+          </div>
+
+          <div class="form-cells">
+            <label for="height">Height (CM)</label>
+            <input
+              type="text"
+              name="height"
+              id="height"
+              placeholder="Enter height here.."
+            />
+          </div>
+
+          <div class="form-cells">
+            <label for="activity-level">Activity Level</label>
+            <select name="activity-level" id="activity-level">
+              <option value="Select-here">Select here</option>
+              <option value="low">Low</option>
+              <option value="moderate">Moderate</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+
+          <div class="form-cells">
+            <label for="password">Password</label>
+            <div class="password-wrapper">
+              <input type="password" name="password" id="password" />
+              <img src="./assets/password.png" alt="password-logo" />
+            </div>
+          </div>
+
+          <div class="form-cells">
+            <button type="submit">Register</button>
+          </div>
+
+          <div class="footer-box">
+            <footer>
+              By clicking Register, you agree to the
+              <span>Terms of Use</span> and our <span>Privacy Policy</span>
+            </footer>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
