@@ -178,6 +178,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   html {
     background-color: aliceblue;
     height: 100vh;
+    display: flex;
+    justify-content: center;
   }
   /* .page {
     display: flex;
@@ -190,7 +192,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ;
   }
   .main-container {
     width: 1440px;
